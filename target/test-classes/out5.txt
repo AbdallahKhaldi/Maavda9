@@ -1,0 +1,3 @@
+Enter base (2/8/10/16):
+Enter expression:
+The value of expression 00001001 & 00001000 | ~00000001 is : 11111110

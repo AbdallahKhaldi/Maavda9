@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.ArithmeticAppFileTest" time="0.054" tests="5" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/abdallahkhaldi/Downloads/Maavda 3/target/test-classes:/Users/abdallahkhaldi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.0/junit-jupiter-engine-5.11.0.jar:/Users/abdallahkhaldi/.m2/repository/org/junit/platform/junit-platform-engine/1.11.0/junit-platform-engine-1.11.0.jar:/Users/abdallahkhaldi/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/abdallahkhaldi/.m2/repository/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.jar:/Users/abdallahkhaldi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar:/Users/abdallahkhaldi/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/abdallahkhaldi/.m2/repository/org/junit/platform/junit-platform-launcher/1.11.0/junit-platform-launcher-1.11.0.jar:/Users/abdallahkhaldi/.m2/repository/org/testfx/testfx-junit5/4.0.17/testfx-junit5-4.0.17.jar:/Users/abdallahkhaldi/.m2/repository/org/testfx/testfx-core/4.0.17/testfx-core-4.0.17.jar:/Users/abdallahkhaldi/.m2/repository/org/osgi/org.osgi.core/6.0.0/org.osgi.core-6.0.0.jar:/Users/abdallahkhaldi/.m2/repository/org/assertj/assertj-core/3.13.2/assertj-core-3.13.2.jar:/Users/abdallahkhaldi/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/abdallahkhaldi/.m2/repository/org/openjfx/javafx-controls/23.0.1/javafx-controls-23.0.1.jar:/Users/abdallahkhaldi/.m2/repository/org/openjfx/javafx-graphics/23.0.1/javafx-graphics-23.0.1.jar:/Users/abdallahkhaldi/.m2/repository/org/openjfx/javafx-base/23.0.1/javafx-base-23.0.1.jar:/Users/abdallahkhaldi/.m2/repository/org/openjfx/javafx-fxml/23.0.1/javafx-fxml-23.0.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IL"/>
+    <property name="sun.boot.library.path" value="/Users/abdallahkhaldi/Library/Java/JavaVirtualMachines/openjdk-23.0.1/Contents/Home/lib"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /Users/abdallahkhaldi/Downloads/Maavda 3/target/surefire 2025-02-11T19-05-26_420-jvmRun1 surefire-20250211190526592_1tmp surefire_0-20250211190526592_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/abdallahkhaldi/Downloads/Maavda 3/target/test-classes:/Users/abdallahkhaldi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.0/junit-jupiter-engine-5.11.0.jar:/Users/abdallahkhaldi/.m2/repository/org/junit/platform/junit-platform-engine/1.11.0/junit-platform-engine-1.11.0.jar:/Users/abdallahkhaldi/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/abdallahkhaldi/.m2/repository/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.jar:/Users/abdallahkhaldi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar:/Users/abdallahkhaldi/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/abdallahkhaldi/.m2/repository/org/junit/platform/junit-platform-launcher/1.11.0/junit-platform-launcher-1.11.0.jar:/Users/abdallahkhaldi/.m2/repository/org/testfx/testfx-junit5/4.0.17/testfx-junit5-4.0.17.jar:/Users/abdallahkhaldi/.m2/repository/org/testfx/testfx-core/4.0.17/testfx-core-4.0.17.jar:/Users/abdallahkhaldi/.m2/repository/org/osgi/org.osgi.core/6.0.0/org.osgi.core-6.0.0.jar:/Users/abdallahkhaldi/.m2/repository/org/assertj/assertj-core/3.13.2/assertj-core-3.13.2.jar:/Users/abdallahkhaldi/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/abdallahkhaldi/.m2/repository/org/openjfx/javafx-controls/23.0.1/javafx-controls-23.0.1.jar:/Users/abdallahkhaldi/.m2/repository/org/openjfx/javafx-graphics/23.0.1/javafx-graphics-23.0.1.jar:/Users/abdallahkhaldi/.m2/repository/org/openjfx/javafx-base/23.0.1/javafx-base-23.0.1.jar:/Users/abdallahkhaldi/.m2/repository/org/openjfx/javafx-fxml/23.0.1/javafx-fxml-23.0.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/abdallahkhaldi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.module.path" value="/Users/abdallahkhaldi/Downloads/Maavda 3/target/classes:/Users/abdallahkhaldi/.m2/repository/org/openjfx/javafx-controls/23.0.1/javafx-controls-23.0.1-mac-aarch64.jar:/Users/abdallahkhaldi/.m2/repository/org/openjfx/javafx-graphics/23.0.1/javafx-graphics-23.0.1-mac-aarch64.jar:/Users/abdallahkhaldi/.m2/repository/org/openjfx/javafx-base/23.0.1/javafx-base-23.0.1-mac-aarch64.jar:/Users/abdallahkhaldi/.m2/repository/org/openjfx/javafx-fxml/23.0.1/javafx-fxml-23.0.1-mac-aarch64.jar"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="/Users/abdallahkhaldi/Library/Java/JavaVirtualMachines/openjdk-23.0.1/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/abdallahkhaldi/Downloads/Maavda 3"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/abdallahkhaldi/.m2/repository/org/apache/maven/surefire/surefire-booter/3.2.5/surefire-booter-3.2.5.jar:/Users/abdallahkhaldi/.m2/repository/org/apache/maven/surefire/surefire-api/3.2.5/surefire-api-3.2.5.jar:/Users/abdallahkhaldi/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.2.5/surefire-logger-api-3.2.5.jar:/Users/abdallahkhaldi/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.2.5/surefire-shared-utils-3.2.5.jar:/Users/abdallahkhaldi/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.2.5/surefire-extensions-spi-3.2.5.jar:/Users/abdallahkhaldi/Downloads/Maavda 3/target/test-classes:/Users/abdallahkhaldi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.0/junit-jupiter-engine-5.11.0.jar:/Users/abdallahkhaldi/.m2/repository/org/junit/platform/junit-platform-engine/1.11.0/junit-platform-engine-1.11.0.jar:/Users/abdallahkhaldi/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/abdallahkhaldi/.m2/repository/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.jar:/Users/abdallahkhaldi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar:/Users/abdallahkhaldi/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/abdallahkhaldi/.m2/repository/org/junit/platform/junit-platform-launcher/1.11.0/junit-platform-launcher-1.11.0.jar:/Users/abdallahkhaldi/.m2/repository/org/testfx/testfx-junit5/4.0.17/testfx-junit5-4.0.17.jar:/Users/abdallahkhaldi/.m2/repository/org/testfx/testfx-core/4.0.17/testfx-core-4.0.17.jar:/Users/abdallahkhaldi/.m2/repository/org/osgi/org.osgi.core/6.0.0/org.osgi.core-6.0.0.jar:/Users/abdallahkhaldi/.m2/repository/org/assertj/assertj-core/3.13.2/assertj-core-3.13.2.jar:/Users/abdallahkhaldi/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/abdallahkhaldi/.m2/repository/org/openjfx/javafx-controls/23.0.1/javafx-controls-23.0.1.jar:/Users/abdallahkhaldi/.m2/repository/org/openjfx/javafx-graphics/23.0.1/javafx-graphics-23.0.1.jar:/Users/abdallahkhaldi/.m2/repository/org/openjfx/javafx-base/23.0.1/javafx-base-23.0.1.jar:/Users/abdallahkhaldi/.m2/repository/org/openjfx/javafx-fxml/23.0.1/javafx-fxml-23.0.1.jar:/Users/abdallahkhaldi/.m2/repository/org/apache/maven/surefire/surefire-junit-platform/3.2.5/surefire-junit-platform-3.2.5.jar:/Users/abdallahkhaldi/.m2/repository/org/apache/maven/surefire/common-java5/3.2.5/common-java5-3.2.5.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23.0.1+11-39"/>
+    <property name="user.name" value="abdallahkhaldi"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/abdallahkhaldi/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/rs/sj4_y9rx2qd2ksqgjlwsg34h0000gn/T/"/>
+    <property name="idea.version" value="2024.3"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="/Users/abdallahkhaldi/Downloads/Maavda 3"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/abdallahkhaldi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.1+11-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testCase1" classname="org.example.ArithmeticAppFileTest" time="0.024">
+    <failure message="Mismatch in output for in1.txt ==&gt; expected: &lt;The value of expression -A00 - 1B * 11 / 9 + 3D is : -9F6&gt; but was: &lt;-9F6&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Mismatch in output for in1.txt ==> expected: <The value of expression -A00 - 1B * 11 / 9 + 3D is : -9F6> but was: <-9F6>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1156)
+	at org.example/org.example.ArithmeticAppFileTest.testExpressionFromFile(ArithmeticAppTest.java:56)
+	at org.example/org.example.ArithmeticAppFileTest.testCase1(ArithmeticAppTest.java:69)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></failure>
+    <system-out><![CDATA[The value of expression -A00 - 1B * 11 / 9 + 3D is : -9F6
+
+==== DEBUGGING TEST CASE ====
+Test File: in1.txt
+Expression: [-A00 - 1B * 11 / 9 + 3D]
+Base: [16]
+Expected Output: [The value of expression -A00 - 1B * 11 / 9 + 3D is : -9F6]
+Actual Output: [-9F6]
+==============================
+
+]]></system-out>
+  </testcase>
+  <testcase name="testCase3" classname="org.example.ArithmeticAppFileTest" time="0.002">
+    <failure message="Mismatch in output for in3.txt ==&gt; expected: &lt;The value of expression 1C + 2D + 3F - 4E is : 3A&gt; but was: &lt;3A&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Mismatch in output for in3.txt ==> expected: <The value of expression 1C + 2D + 3F - 4E is : 3A> but was: <3A>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1156)
+	at org.example/org.example.ArithmeticAppFileTest.testExpressionFromFile(ArithmeticAppTest.java:56)
+	at org.example/org.example.ArithmeticAppFileTest.testCase3(ArithmeticAppTest.java:79)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></failure>
+    <system-out><![CDATA[The value of expression 1C  + 2D + 3F -          4E is : 3A
+
+==== DEBUGGING TEST CASE ====
+Test File: in3.txt
+Expression: [1C  + 2D + 3F -          4E]
+Base: [16]
+Expected Output: [The value of expression 1C + 2D + 3F - 4E is : 3A]
+Actual Output: [3A]
+==============================
+
+]]></system-out>
+  </testcase>
+  <testcase name="testCase5_BitwiseOperations" classname="org.example.ArithmeticAppFileTest" time="0.002">
+    <failure message="Mismatch in output for in5.txt ==&gt; expected: &lt;The value of expression 00001001 &amp; 00001000 | ~00000001 is : 11111110&gt; but was: &lt;11111110&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Mismatch in output for in5.txt ==> expected: <The value of expression 00001001 & 00001000 | ~00000001 is : 11111110> but was: <11111110>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1156)
+	at org.example/org.example.ArithmeticAppFileTest.testExpressionFromFile(ArithmeticAppTest.java:56)
+	at org.example/org.example.ArithmeticAppFileTest.testCase5_BitwiseOperations(ArithmeticAppTest.java:89)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></failure>
+    <system-out><![CDATA[The value of expression 00001001 & 00001000 | ~00000001 is : 11111110
+
+==== DEBUGGING TEST CASE ====
+Test File: in5.txt
+Expression: [00001001 & 00001000 | ~00000001]
+Base: [2]
+Expected Output: [The value of expression 00001001 & 00001000 | ~00000001 is : 11111110]
+Actual Output: [11111110]
+==============================
+
+]]></system-out>
+  </testcase>
+  <testcase name="testCase2_DivideByZero" classname="org.example.ArithmeticAppFileTest" time="0.001">
+    <system-out><![CDATA[Error: trying to divide by 0 (evaluated: "0")
+
+==== DEBUGGING TEST CASE ====
+Test File: in2.txt
+Expression: [A00 / 0]
+Base: [16]
+Expected Output: [Error: trying to divide by 0 (evaluated: "0")]
+Actual Output: [Error: trying to divide by 0 (evaluated: "0")]
+==============================
+
+]]></system-out>
+  </testcase>
+  <testcase name="testCase4_InvalidBase" classname="org.example.ArithmeticAppFileTest" time="0.008">
+    <failure message="Mismatch in error message for in4.txt ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Mismatch in error message for in4.txt ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at org.example/org.example.ArithmeticAppFileTest.testExpressionFromFile(ArithmeticAppTest.java:54)
+	at org.example/org.example.ArithmeticAppFileTest.testCase4_InvalidBase(ArithmeticAppTest.java:84)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+]]></failure>
+    <system-out><![CDATA[
+==== DEBUGGING TEST CASE ====
+Test File: in4.txt
+Expression: [8]
+Base: [5]
+Expected Output: [Error – this base isn’t supported. Please enter a base (2/8/10/16): The value of expression 700 - 12 * 11 / 6 + 3 is : 664]
+Actual Output: [8]
+==============================
+
+]]></system-out>
+  </testcase>
+</testsuite>

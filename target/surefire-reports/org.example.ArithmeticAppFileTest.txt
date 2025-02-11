@@ -1,0 +1,56 @@
+-------------------------------------------------------------------------------
+Test set: org.example.ArithmeticAppFileTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.054 s <<< FAILURE! -- in org.example.ArithmeticAppFileTest
+org.example.ArithmeticAppFileTest.testCase1 -- Time elapsed: 0.024 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Mismatch in output for in1.txt ==> expected: <The value of expression -A00 - 1B * 11 / 9 + 3D is : -9F6> but was: <-9F6>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1156)
+	at org.example/org.example.ArithmeticAppFileTest.testExpressionFromFile(ArithmeticAppTest.java:56)
+	at org.example/org.example.ArithmeticAppFileTest.testCase1(ArithmeticAppTest.java:69)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+org.example.ArithmeticAppFileTest.testCase3 -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Mismatch in output for in3.txt ==> expected: <The value of expression 1C + 2D + 3F - 4E is : 3A> but was: <3A>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1156)
+	at org.example/org.example.ArithmeticAppFileTest.testExpressionFromFile(ArithmeticAppTest.java:56)
+	at org.example/org.example.ArithmeticAppFileTest.testCase3(ArithmeticAppTest.java:79)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+org.example.ArithmeticAppFileTest.testCase5_BitwiseOperations -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Mismatch in output for in5.txt ==> expected: <The value of expression 00001001 & 00001000 | ~00000001 is : 11111110> but was: <11111110>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1156)
+	at org.example/org.example.ArithmeticAppFileTest.testExpressionFromFile(ArithmeticAppTest.java:56)
+	at org.example/org.example.ArithmeticAppFileTest.testCase5_BitwiseOperations(ArithmeticAppTest.java:89)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+org.example.ArithmeticAppFileTest.testCase4_InvalidBase -- Time elapsed: 0.008 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Mismatch in error message for in4.txt ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at org.example/org.example.ArithmeticAppFileTest.testExpressionFromFile(ArithmeticAppTest.java:54)
+	at org.example/org.example.ArithmeticAppFileTest.testCase4_InvalidBase(ArithmeticAppTest.java:84)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+

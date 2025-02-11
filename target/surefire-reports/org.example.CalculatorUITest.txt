@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: org.example.CalculatorUITest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 6.019 s <<< FAILURE! -- in org.example.CalculatorUITest
+org.example.CalculatorUITest.testOperators(FxRobot) -- Time elapsed: 2.687 s <<< FAILURE!
+java.lang.AssertionError
+	at org.example/org.example.CalculatorUITest.testOperators(CalculatorUITest.java:66)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+org.example.CalculatorUITest.testMultipleButtonPress(FxRobot) -- Time elapsed: 1.308 s <<< FAILURE!
+java.lang.AssertionError
+	at org.example/org.example.CalculatorUITest.testMultipleButtonPress(CalculatorUITest.java:54)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+org.example.CalculatorUITest.testClearButton(FxRobot) -- Time elapsed: 0.638 s <<< FAILURE!
+java.lang.AssertionError
+	at org.example/org.example.CalculatorUITest.testClearButton(CalculatorUITest.java:81)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+org.example.CalculatorUITest.testButtonPress(FxRobot) -- Time elapsed: 0.635 s <<< FAILURE!
+java.lang.AssertionError
+	at org.example/org.example.CalculatorUITest.testButtonPress(CalculatorUITest.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
